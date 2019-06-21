@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "devStart":" nodemon app.js "
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/marawansalaheldeen/REST_API/issues"
   },
-  "homepage": "https://github.com/marawansalaheldeen/REST_API#readme"
+  "homepage": "https://github.com/marawansalaheldeen/REST_API#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.0",
+    "nodemon": "^1.19.1"
+  }
 }
